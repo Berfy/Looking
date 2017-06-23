@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+def config = rootProject.ext
+android {
+
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res', 'res-ptr2']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:design:26.+'
+    compile 'com.android.support:appcompat-v7:26.+'
+    //    provided fileTree(include: '*.jar', dir: 'libs')
+    compile files('libs/fastjson-1.1.34.android.jar')
+    compile files('libs/nim-avchat-3.5.5.jar')
+    compile files('libs/nim-basesdk-3.5.5.jar')
+    compile files('libs/nim-lucene-3.5.5.jar')
+    provided files('libs/universal-image-loader-1.9.5.jar')
+}

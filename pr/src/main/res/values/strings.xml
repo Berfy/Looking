@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">PlateRecognizer</string>
+    <string name="plate_rect">车牌识别区</string>
+</resources>
