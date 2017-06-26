@@ -104,12 +104,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",

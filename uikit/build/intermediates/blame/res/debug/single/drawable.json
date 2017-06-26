@@ -1,19 +1,19 @@
 [
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\explosion.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\explosion.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_progress_small_white.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_progress_small_white.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_recent_contact_sticky_selecter.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_recent_contact_sticky_selecter.xml"
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\explosion.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\explosion.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_button_bottom_emoji_selector.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_message_button_bottom_emoji_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_recent_contact_sticky_selecter.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_recent_contact_sticky_selecter.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_progress_bar_foreground.xml",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_team_member_delete_selector.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_team_member_delete_selector.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_team_member_delete_selector.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_team_member_delete_selector.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg_selecter.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_portrait_mask_square.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_portrait_mask_square.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_message_unread_news_icon_selector.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -116,12 +116,12 @@
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_message_item_round_bg.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_focused.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_bg_edittext_rectangle_focused.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_normal.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_bg_edittext_rectangle_normal.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_bg_edittext_rectangle_focused.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_bg_edittext_rectangle_focused.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_video_play_icon_selector.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_video_play_icon_selector.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\nim_video_play_icon_selector.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\drawable\\nim_video_play_icon_selector.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",

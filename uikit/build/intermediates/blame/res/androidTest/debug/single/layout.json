@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_emoji_layout.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_emoji_layout.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_read_recipt_layout.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_read_recipt_layout.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_emoji_layout.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_emoji_layout.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_popup_menu_black_layout.xml",
@@ -20,20 +20,20 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_preview_image_from_local_activity.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_preview_image_from_local_activity.xml"
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_message_item_video.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_message_item_video.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_preview_image_from_local_activity.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\layout\\nim_preview_image_from_local_activity.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nim_easy_alert_dialog_bottom_button.xml",

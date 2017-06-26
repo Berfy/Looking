@@ -56,12 +56,12 @@
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\layout\\nim_action_bar_custom_view.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_watch_picture_activity.xml",
-        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\layout\\nim_watch_picture_activity.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_team_info_divider_item.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\layout\\nim_team_info_divider_item.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\nim_watch_picture_activity.xml",
+        "source": "D:\\android\\otherDemo\\looking\\uikit\\res\\layout\\nim_watch_picture_activity.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",

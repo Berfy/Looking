@@ -1,19 +1,19 @@
 [
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",

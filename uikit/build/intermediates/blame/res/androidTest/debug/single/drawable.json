@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -92,20 +92,20 @@
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_cancel_record_red_bg.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_message_plus_location_selector.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_message_plus_location_selector.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -176,12 +176,12 @@
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_portrait_mask_square.xml"
     },
     {
-        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_video_play_icon_selector.xml",
         "source": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\bundles\\debug\\res\\drawable\\nim_video_play_icon_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Berfy\\.android\\build-cache\\4c4149c45ec20679540230f68b6abaa745ad57a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\android\\otherDemo\\looking\\uikit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nim_team_member_delete_selector.xml",
