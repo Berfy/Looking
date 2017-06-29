@@ -22,11 +22,9 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
-import cn.berfy.framework.R;
-
 import android.widget.TextView;
 
+import cn.berfy.framework.R;
 import cn.berfy.framework.base.BaseActivity;
 import cn.berfy.framework.support.views.AWebView;
 import cn.berfy.framework.utils.DeviceUtil;
@@ -116,7 +114,7 @@ public class WapActivity extends BaseActivity {
         if (mType == TYPE_URL) {
             mWebView.loadUrlOnCheck(mUrl);
         } else if (mType == TYPE_DATA) {
-            mWebView.loadData(mData,"","");
+            mWebView.loadData(mData, "", "");
         } else if (mType == TYPE_LOCAL) {
             mWebView.loadUrl(mUrl);
         }
