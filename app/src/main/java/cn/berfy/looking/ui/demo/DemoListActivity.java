@@ -13,6 +13,7 @@ import cn.berfy.framework.utils.DeviceUtil;
 import cn.berfy.looking.BaseActivity;
 import cn.berfy.looking.R;
 import cn.berfy.looking.adapter.demo.DemoListAdapter;
+import cn.berfy.looking.ui.demo.anim.AnimDemo;
 import cn.berfy.looking.ui.demo.bluetooth.BluetoothDeviceSearchingActivity;
 import cn.berfy.looking.ui.demo.carplate.CarPlateActivity;
 import cn.berfy.looking.ui.demo.chat.LoginActivity;
@@ -81,6 +82,9 @@ public class DemoListActivity extends BaseActivity {
                             startActivityWithAnim(new Intent(mContext, CarPlateActivity.class));
                         }
                         break;
+                    case 7:
+                        startActivityWithAnim(new Intent(mContext, AnimDemo.class));
+                        break;
                 }
             }
         });
@@ -92,6 +96,7 @@ public class DemoListActivity extends BaseActivity {
         mDemoListAdapter.getData().add(getString(R.string.title_demo_bluetooth));
         mDemoListAdapter.getData().add(getString(R.string.title_demo_qr));
         mDemoListAdapter.getData().add(getString(R.string.title_demo_car_plate));
+        mDemoListAdapter.getData().add(getString(R.string.title_demo_anim));
         mDemoListAdapter.notifyDataSetChanged();
     }
 

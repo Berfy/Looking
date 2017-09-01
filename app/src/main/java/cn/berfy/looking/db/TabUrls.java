@@ -22,17 +22,18 @@ import cn.berfy.looking.db.base.OpenDBUtil;
 public class TabUrls {
 
     private final String TAG = "TabUrls";
-    private static TabUrls mTabUrls;
+    private volatile static TabUrls mTabUrls;
     private SQLiteDatabase mDb;
     private DBHelper mDbHelper;
 
     synchronized public static TabUrls getInstances() {
-        synchronized (TabUrls.class) {
-            if (null == mTabUrls) {
-                mTabUrls = new TabUrls();
+        if (null == mTabUrls)
+            synchronized (TabUrls.class) {
+                if (null == mTabUrls) {
+                    mTabUrls = new TabUrls();
+                }
             }
-            return mTabUrls;
-        }
+        return mTabUrls;
     }
 
     private TabUrls() {
@@ -92,7 +93,7 @@ public class TabUrls {
     public List<UrlsBean> getAllData() {
         LogUtil.e(TAG, "getAllData ");
         Cursor cursor = mDb.query(OpenDBUtil.TAB_URLS, null, null
-                , null, null, null, OpenDBUtil.KEYS_TAB_URLS[2]+" desc");
+                , null, null, null, OpenDBUtil.KEYS_TAB_URLS[2] + " desc");
         List<UrlsBean> urlsBeens = new ArrayList<>();
         try {
             while (cursor.moveToNext()) {
@@ -110,7 +111,7 @@ public class TabUrls {
                 cursor.close();
             }
         }
-        LogUtil.e(TAG,"所有数据"+GsonUtil.getInstance().toJson(urlsBeens));
+        LogUtil.e(TAG, "所有数据" + GsonUtil.getInstance().toJson(urlsBeens));
         return urlsBeens;
     }
 

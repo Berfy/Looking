@@ -19,6 +19,7 @@
     <string name="title_demo_bluetooth">蓝牙设备搜索</string>
     <string name="title_demo_qr">二维码扫描</string>
     <string name="title_demo_car_plate">车牌扫描</string>
+    <string name="title_demo_anim">动画Demo</string>
 
     <!--首页-->
     <string name="home_title_recommand">推荐</string>

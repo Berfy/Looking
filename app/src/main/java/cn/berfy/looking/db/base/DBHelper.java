@@ -7,15 +7,16 @@ import android.os.Build;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static DBHelper mDbHelper;
+    private volatile static DBHelper mDbHelper;
     private SQLiteDatabase mDb;
 
     synchronized public static DBHelper init(Context context, int dbVersion, String dbName) {
-        synchronized (DBHelper.class) {
-            if (mDbHelper == null) {
-                mDbHelper = new DBHelper(context, dbName, dbVersion);
+        if (null == mDbHelper)
+            synchronized (DBHelper.class) {
+                if (null == mDbHelper) {
+                    mDbHelper = new DBHelper(context, dbName, dbVersion);
+                }
             }
-        }
         return mDbHelper;
     }
 

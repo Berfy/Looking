@@ -22,17 +22,18 @@ import cn.berfy.looking.db.base.OpenDBUtil;
 public class TabKeyWords {
 
     private final String TAG = "TabKeyWords";
-    private static TabKeyWords mTabKeyWords;
+    private volatile static TabKeyWords mTabKeyWords;
     private SQLiteDatabase mDb;
     private DBHelper mDbHelper;
 
     synchronized public static TabKeyWords getInstances() {
-        synchronized (TabKeyWords.class) {
-            if (null == mTabKeyWords) {
-                mTabKeyWords = new TabKeyWords();
+        if (null == mTabKeyWords)
+            synchronized (TabKeyWords.class) {
+                if (null == mTabKeyWords) {
+                    mTabKeyWords = new TabKeyWords();
+                }
             }
-            return mTabKeyWords;
-        }
+        return mTabKeyWords;
     }
 
     private TabKeyWords() {
@@ -92,7 +93,7 @@ public class TabKeyWords {
     public List<KeyWordsBean> getAllData() {
         LogUtil.e(TAG, "getAllData ");
         Cursor cursor = mDb.query(OpenDBUtil.TAB_KEYWORDS, null, null
-                , null, null, null, OpenDBUtil.KEYS_TAB_KEYWORDS[2]+" desc");
+                , null, null, null, OpenDBUtil.KEYS_TAB_KEYWORDS[2] + " desc");
         List<KeyWordsBean> keyWordsBeans = new ArrayList<>();
         try {
             while (cursor.moveToNext()) {

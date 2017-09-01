@@ -23,17 +23,18 @@ import cn.berfy.looking.db.base.OpenDBUtil;
 public class TabContent {
 
     private final String TAG = "TabContent";
-    private static TabContent mTabContent;
+    private volatile static TabContent mTabContent;
     private SQLiteDatabase mDb;
     private DBHelper mDbHelper;
 
     synchronized public static TabContent getInstances() {
-        synchronized (TabContent.class) {
-            if (null == mTabContent) {
-                mTabContent = new TabContent();
+        if (null == mTabContent)
+            synchronized (TabContent.class) {
+                if (null == mTabContent) {
+                    mTabContent = new TabContent();
+                }
             }
-            return mTabContent;
-        }
+        return mTabContent;
     }
 
     private TabContent() {
