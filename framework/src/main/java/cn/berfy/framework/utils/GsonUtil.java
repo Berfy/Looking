@@ -6,12 +6,16 @@ import java.lang.reflect.Type;
 
 public class GsonUtil {
 
-    private static GsonUtil mGsonUtil;
+    private volatile static GsonUtil mGsonUtil;
     private Gson mGson;
 
     public static GsonUtil getInstance() {
         if (null == mGsonUtil) {
-            mGsonUtil = new GsonUtil();
+            synchronized (GsonUtil.class) {
+                if (null == mGsonUtil) {
+                    mGsonUtil = new GsonUtil();
+                }
+            }
         }
         return mGsonUtil;
     }

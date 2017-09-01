@@ -18,7 +18,7 @@ public class TempSharedData {
     private SharedPreferences mSharedPreferences;
     private Editor mEditor;
 
-    private static TempSharedData mUserSharedData;
+    private volatile static TempSharedData mUserSharedData;
 
     public static TempSharedData getInstance(Context context) {
         if (mUserSharedData == null) {

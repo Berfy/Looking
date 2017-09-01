@@ -27,12 +27,16 @@ import cn.berfy.framework.utils.LogUtil;
 public class VolleyHttp {
 
     private Context mContext;
-    private static VolleyHttp mVolleyHttp;
+    private volatile static VolleyHttp mVolleyHttp;
     private RequestQueue mRequestQueue;
 
     public static VolleyHttp init(Context context) {
         if (null == mVolleyHttp) {
-            mVolleyHttp = new VolleyHttp(context);
+            synchronized (VolleyHttp.class) {
+                if (null == mVolleyHttp) {
+                    mVolleyHttp = new VolleyHttp(context);
+                }
+            }
         }
         return mVolleyHttp;
     }

@@ -1,6 +1,7 @@
 package cn.berfy.framework.manager;
 
 import android.app.Activity;
+
 import java.util.Stack;
 
 import cn.berfy.framework.utils.LogUtil;
@@ -12,13 +13,17 @@ import cn.berfy.framework.utils.LogUtil;
 public class ActivityManager {
 
     private Stack<Activity> activityStack;
-    public static ActivityManager instance;
+    public volatile static ActivityManager mInstances;
 
     public static ActivityManager getInstance() {
-        if (null == instance) {
-            instance = new ActivityManager();
+        if (null == mInstances) {
+            synchronized (ActivityManager.class) {
+                if (null == mInstances) {
+                    mInstances = new ActivityManager();
+                }
+            }
         }
-        return instance;
+        return mInstances;
     }
 
     public Integer getActivityNum() {
